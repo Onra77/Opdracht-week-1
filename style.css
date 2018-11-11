@@ -1,0 +1,82 @@
+body{
+    font-family: oswald, helvatica, ariel, sans-serif;
+    background-image: url("img/matrix.png");
+}
+
+div a {
+    color: black;
+    text-decoration: none;  
+}
+
+li {
+    color: black;
+    text-decoration: underline;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+li:hover{
+    background-color: green;
+    display: inline;
+}
+
+#container {
+    background-color: darkgray;
+    opacity: .95;
+    background-image: url("img/fixit.png");
+    background-repeat: no-repeat; 
+    background-position: left bottom;
+    background-size: 20%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#header { background-color: green;
+    color: white;
+    text-align: left;
+}
+
+#content {
+    padding: 1%;
+    min-height: 80vh;
+}
+
+#topic {
+    float: left;
+    font-weight: bold;
+}
+
+#topic ul{
+    list-style-type: none;
+    padding: 5%;
+}
+
+#topic.selected{
+    font-weight: bold;
+}
+
+#tde {
+    width: 75%;
+    float: left
+}
+
+#contact_form {
+    width: 75%;
+    float: left
+}
+
+#contact {
+    clear: both;
+    background-color: green;
+    color: white;
+    margin-bottom: 0%;
+}
+
+.CodeGorilla {
+    float:left;
+    text-align:right;
+}
+
+* {
+    box-sizing: border-box;
+}
