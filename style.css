@@ -1,6 +1,8 @@
 body{
+    background-color: green;
     font-family: oswald, helvatica, ariel, sans-serif;
     background-image: url("matrix.png");
+    background-color: #796a62;
 }
 
 div a {
@@ -22,11 +24,11 @@ li:hover{
 
 #container {
     background-color: darkgray;
-    opacity: .95;
     background-image: url("fixit.png");
+    opacity: .95;
     background-repeat: no-repeat; 
     background-position: left bottom;
-    background-size: 20%;
+    background-size: 21%;
     margin-left: auto;
     margin-right: auto;
 }
@@ -57,12 +59,17 @@ li:hover{
 
 #tde {
     width: 75%;
-    float: left
+    float: right
+}
+
+img {
+    display: block;
+    width: 100%;
 }
 
 #contact_form {
     width: 75%;
-    float: left
+    float: right
 }
 
 #contact {
@@ -79,11 +86,4 @@ li:hover{
 
 * {
     box-sizing: border-box;
-}
-
-@media only screen and (max-width: 800px) {
-    #container {
-        background-image: none;
-        font-size: 20px;
-    }
 }
